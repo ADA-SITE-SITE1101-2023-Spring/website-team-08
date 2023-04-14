@@ -1,0 +1,81 @@
+
+
+
+nav {
+    background-color: #000000;
+    overflow: hidden;
+}
+nav a {
+    float: left;
+    color: rgb(241, 138, 4);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #00ddffd3;
+    color: black;
+}
+img {
+  float: left;
+  margin-left: 125px;
+  margin-top: 20px;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  overflow: hidden;
+  background-color: blue;
+    }
+  
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+
+
+
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px;
+    
+}
+
+th {
+    background-color: #000000;
+    color: rgb(241, 138, 4);
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+  .button {
+    color: rgb(241, 138, 4);
+    border: 6px;
+    background-color: #000000;
+    border-color:#000000;
+    padding: 20px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  .button:hover{
+    background-color: #00ddffd3;
+    color: black;
+  }
+#students {
+    color: rgb(241, 138, 4);
+    font-size: 20px;
+}
+

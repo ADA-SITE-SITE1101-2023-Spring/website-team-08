@@ -1,0 +1,87 @@
+
+nav {
+    background-color: #000000;
+    overflow: hidden;
+}
+nav a {
+    float: left;
+    color: rgb(241, 138, 4);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #00ddffd3;
+    color: black;
+}
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 500px;
+    
+  }
+  
+
+
+
+
+/* Style for form input fields */
+form input[type=text],
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+/* About Us page content */
+#AboutUs {
+    margin: 50px;
+  }
+  #AboutUs h1 {
+    text-align: center;
+  }
+  #AboutUs p {
+    text-align: justify;
+    line-height: 1.5;
+  }
+
+
+
+/* Contact Us page content */
+#ContactUs {
+    margin: 50px;
+  }
+  #ContactUs h1 {
+    text-align: center;
+  }
+  #ContactUs form {
+    text-align: center;
+  }
+  #ContactUs input[type="text"],
+  #ContactUs input[type="email"],
+  #ContactUs textarea {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    resize: vertical;
+  }
+  #ContactUs input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  #ContactUs input[type="submit"]:hover {
+    background-color: #45a049;
+  }

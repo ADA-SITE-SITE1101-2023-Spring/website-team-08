@@ -1,0 +1,27 @@
+/* Style for the container of the photos */
+.photo-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  /* Style for each photo */
+  .photo {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Style for photo caption */
+  .photo-caption {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+  }
